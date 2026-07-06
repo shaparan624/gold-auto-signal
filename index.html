@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gold Auto Signal Pro</title>
 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>📈 Gold Auto Signal Pro</h1>
+
+  <div class="card">
+    <h2>XAU/USD</h2>
+
+    <p>Price</p>
+    <h3 id="price">Loading...</h3>
+
+    <p>Signal</p>
+    <h2 id="signal">Waiting...</h2>
+
+    <p>Entry</p>
+    <h3 id="entry">--</h3>
+
+    <p>Stop Loss</p>
+    <h3 id="sl">--</h3>
+
+    <p>Take Profit</p>
+    <h3 id="tp">--</h3>
+
+    <button onclick="getSignal()">Refresh Signal</button>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
